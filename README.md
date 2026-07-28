@@ -4,7 +4,7 @@
 
 A simple and lightweight template for building CRUD applications with Flask.
 
-## 🚀 Tech Stack
+## 🛠️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-Framework-000000?style=for-the-badge&logo=flask&logoColor=white)
@@ -22,7 +22,7 @@ A simple and lightweight template for building CRUD applications with Flask.
 - Jinja templates
 - Easy to customize for your own projects
 
-## 📦 Getting Started
+## 🚀 Getting Started
 
 ### 1. Create a virtual environment
 
