@@ -1,49 +1,81 @@
-# Flask CRUD template
+# Flask CRUD Template
 
-This project is a template for simple CRUD applications.
+![Preview](preview.png)
 
-### Technologies:
-* <img align="center" alt="ph-HTML" height="25" width="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"> HTML5
-* <img align="center" alt="ph-Bootstrap" height="25" width="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"> Bootstrap 5
-* <img align="center" alt="ph-Python" height="25" width="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"> Python 3.8+
-* <img align="center" alt="ph-Flask" height="25" width="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"> Flask & Jinja
-* <img align="center" alt="ph-Flask" height="25" width="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg"> Flask SQLAlchemy
-* <img align="center" alt="ph-Flask" height="25" width="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"> SQLite3
+A simple and lightweight template for building CRUD applications with Flask.
 
-## LICENSE
+## 🚀 Tech Stack
 
-Free use. Go ahead and use it as often as you need or want.
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Framework-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Jinja](https://img.shields.io/badge/Jinja-Templates-B41717?style=for-the-badge&logo=jinja&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## How to run it:
+## ✨ Features
 
-1 - Create the virtual environment for libraries:  
-```
+- CRUD with Flask
+- SQLite database
+- Flask SQLAlchemy integration
+- Bootstrap 5 UI
+- Jinja templates
+- Easy to customize for your own projects
+
+## 📦 Getting Started
+
+### 1. Create a virtual environment
+
+```bash
 python3 -m venv venv
 ```
 
-2 - Activate the virtual environment:  
-Linux:   
-```shell
-. venv/bin/activate
-```  
-Windows:  
-```shell
+### 2. Activate the virtual environment
+
+**Linux/macOS**
+
+```bash
+source venv/bin/activate
+```
+
+**Windows**
+
+```powershell
 .\venv\Scripts\activate
 ```
 
-3 - Install the complementary libraries:  
-```shell
+### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-4 - Edit your `app.py`:
-- Edit `app.secret_key` to your secret key
-- Edit the `Your Table` class to create your own table
-- Change route names and variables
-- If you want you can change the style of the pages, just go to the bootstrap 5 documentation and choose what works best for you
-- Go to the last line of `app.py` and change `debug=True` to `debug=False`
+### 4. Configure the application
 
-5 - Run it:  
-```shell
+Edit `app.py`:
+
+- Set your own `app.secret_key`
+- Replace the example model with your own
+- Rename routes and variables as needed
+- Customize the UI using Bootstrap 5
+- Before deploying, change:
+
+```python
+debug=True
+```
+
+to
+
+```python
+debug=False
+```
+
+### 5. Run the application
+
+```bash
 python3 app.py
 ```
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
